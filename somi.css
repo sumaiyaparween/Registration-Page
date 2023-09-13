@@ -1,0 +1,66 @@
+body{
+   margin: 0;
+   padding: 0 8px;
+   background: rgb(44, 44, 229);
+   box-sizing: border-box;
+}
+ .main{
+   background-color: #ffff;
+   max-width: 400px;
+   padding: 20px;
+   height: 650px;
+   margin: 3% auto 0;
+   box-shadow: 1px 1px 6px rgba(0,  0, 0, 0.112);
+ }
+ h1{
+   text-align: center;
+ }
+ main h1{
+    font-size: 30px;
+    line-height: 40px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ } 
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .content .input-field{
+   display: inline-block;
+    width: 300px;
+    margin-bottom: 10px auto;
+    font-size: 15px;
+    box-sizing: border-box;
+    
+ }
+ input[type=text]{
+    width: 300px;
+    margin: 5px;
+    padding: 12px  20px;
+    transition: all 0.3s ease;
+    border-width: 2px;
+    box-sizing: border-box; 
+    justify-content: space-between;  
+ }
+   dropdown{
+      width: 300px;
+      padding: 12px  20px;
+      transition: all 0.3s ease;
+      border-width: 2px;
+      box-sizing: border-box; 
+      margin: 10px;
+   }
+ .input-field button{
+    font-size: 20px;
+    font-family: italic;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+ }
+ label{
+   float: left;
+ }
